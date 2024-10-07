@@ -1,0 +1,146 @@
+/* RESET */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* COMMON */
+.container {
+    width: 80%;
+    max-width: 550px;
+    margin: 0 auto;
+}
+
+.border {
+    border: 2px solid black;
+    border-style: dashed;
+}
+
+.header-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: orange;
+    height: 30px;
+}
+
+.row {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.first-item {
+    display: flex;
+align-items: center;    
+height: 30px;
+    width: 100px;
+}
+.block-items {
+    justify-content: space-around;
+    height: 30px;
+    width: 250px;
+}
+.third-item {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    height: 30px;
+    width: 100px;
+}
+
+.header {
+    background-color: lightblue;
+    height: 50px;
+    align-content: center;
+}
+
+/* LAYOUT */
+.small-container {
+    background-color: blue;
+    height: 250px;
+}
+
+.section-bg {
+    height: 320px;
+}
+
+.pink-paragraph {
+    background-color: palevioletred;
+    height: 180px;
+    width: 420px;
+}
+
+.bi-column {
+    background-color: white;
+}
+
+.bi-inverted {
+    background-color: lightgrey;
+    display: flex;
+    flex-direction: row-reverse;
+}
+
+.large-col {
+    background-color: cornflowerblue;
+    height: 250px;
+    width: 350px;
+}
+
+.small-col {
+    background-color: pink;
+    height: 250px;
+    width: 200px;
+}
+
+.mono-block {
+    background-color: lightgrey;
+    height: 500px;
+}
+
+.mono-item {
+    background-color: green;
+    height: 400px;
+    width: 550px;
+}
+
+.footer {
+    background-color:#3b3a3a;
+}
+
+.info-contacs {
+    padding: 10px;
+}
+
+.salmon {
+    background-color: salmon;
+    height: 250px;
+    width: 150px;
+}
+
+.infos {
+    background-color: rgb(114, 247, 149);
+    height: 250px;
+    width: 100px;
+    border: 1px solid azure;
+    border-style: dashed;
+}
+
+hr {
+    color: lightgray;
+    background-color: lightgray;
+    margin-bottom: 10px;
+}
+
+.two-buttons {
+    background-color: aquamarine;
+    display: flex;
+    justify-content: space-between;
+    height: 35px;
+}
+
+.bottom-text {
+    font-size: smaller;
+    background-color: salmon;
+}
